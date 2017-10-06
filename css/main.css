@@ -1,0 +1,139 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      border-radius: 0;
+      margin-bottom: 0px;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: white;
+      color: black;
+      padding: 15px;
+      margin-top: 100px
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    /* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  40px; }
+.right-addon input { padding-right: 30px; }
+    .actionIcons{
+      font-size: 40px; color: #084482; margin: 10px
+    }
+
+    body{
+      background: #fafafa;
+      font-family: 'Lato', sans-serif;
+      color: #1a1a1a;
+      -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    }
+    .navbar-brand{
+      padding: 10px;
+      padding-left: 40px
+    }
+    .btn-primary{
+      background: #4099FF !important;
+      border: 1px solid #4099FF !important;
+    }
+    .deepColor{
+      color: #084482;
+    }
+    .bold{
+      font-weight: bold
+    }
+    .bodyWrapper{
+      width: 100%; background: white; padding: 20px 10px
+    }
+    .searchInput{
+      border-radius: 0px; box-shadow: none
+    }
+    .searchIcon{
+      font-size: 20px; color: #ddd
+    }
+    .searchBtn{
+      border-radius: 0px; box-shadow: none
+    }
+    .margin15{
+      margin-left: 15px
+    }
+    .overlay{
+  width: 100%;position: relative; height: 100%; background: rgba(0,0,0,0.4);text-align: center;
+}
+.overlayHead{
+  position: absolute;color: white; z-index: 1000;  top: 27%; right: 0; left: 0
+}
+.overlaySubHead{
+  position: absolute;color: white; z-index: 1000;  top: 50%; right: 0; left: 0
+}
+.listingBg{
+  width: 100%; padding: 8px 10px; background: #f9fbfd; color: #2196f3; font-size: 12px
+}
+.rating{
+  font-size: 18px
+}
+.full{
+  color: orange
+}
+.empty{
+  color: #ddd
+}
+.optinBg{
+  width: 100%; background: #01579b; padding: 20px 10px; margin-top: 60px; color: white
+}
+.tag{
+  font-size: 40px; margin-top: 10px
+}
+.optinHead{
+  margin-top: 0px;line-height: 1.5; margin-bottom: 0px
+}
+.optinSubHead{
+  color: #2196f3; margin-top: 0px
+}
+.overlay:hover{
+  background: rgba(0,0,0,0.8);
+}
+footer hr{
+ margin: 0px; margin-top: 10px; border: 1px solid #ddd  
+}
+.footerIcon{
+  font-size: 30px; 
+  color: gray;
+  margin:0px 20px
+}
+.footerIcon:hover{
+  color: #4099FF
+}
